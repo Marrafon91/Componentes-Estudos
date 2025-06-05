@@ -55,6 +55,20 @@ p {
   margin-bottom: 2.2em;
 }
 
+.nomeAutor {
+  text-transform: uppercase;
+  line-height: 1.2rem;
+  color: var(--azul-principal);
+  letter-spacing: 2px;
+  border-bottom: .2rem solid var(--azul-principal);
+  cursor: context-menu;
+  padding: 0 .5rem;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);  
+}
+
 article {
   padding: 1em 0;
 }
