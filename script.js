@@ -13,18 +13,18 @@ titulo.addEventListener("click", () => {
   }
 });
 
-document.querySelectorAll("a").forEach((link) => {
+// document.querySelectorAll("a").forEach((link) => {
   
-  if (link.getAttribute("href").startsWith("#")) return;
+//   if (link.getAttribute("href").startsWith("#")) return;
 
-  link.addEventListener("click", function (e) {
-    e.preventDefault(); 
-    const href = this.getAttribute("href"); 
+//   link.addEventListener("click", function (e) {
+//     e.preventDefault(); 
+//     const href = this.getAttribute("href"); 
 
-    document.body.classList.add("fade-out"); 
+//     document.body.classList.add("fade-out"); 
 
-    setTimeout(() => {
-      window.location.href = href; 
-    }, 500); 
-  });
-});
+//     setTimeout(() => {
+//       window.location.href = href; 
+//     }, 500); 
+//   });
+// });
