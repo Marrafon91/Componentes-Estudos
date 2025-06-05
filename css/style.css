@@ -28,8 +28,19 @@ body {
   color: var(--textos);
   line-height: 1.7;
   background: url(../img/bg-unsplash-2x.png) no-repeat center center fixed;
-  background-size: cover;  
+  background-size: cover;
+  
 }
+
+body.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+body {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
 
 h2,
 h3,
